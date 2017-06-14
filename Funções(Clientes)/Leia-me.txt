@@ -1,0 +1,6 @@
+# Funções(Clientes)
+
+Coloquem nessa pasta as funções relacionadas
+ao menu "cliente", exemplo: cadastrar clientes,pesquisar clientes.
+
+Usem nomes expecificos pra não ter confusão, exemplo: funcao_cadastro.cpp
