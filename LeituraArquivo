@@ -6,6 +6,7 @@ int main(){
 	char *result;
 	int i;
 	// Abre um arquivo TEXTO para LEITURA
+	//Deve-se especificar o caminho exato do arquivo
 	arq = fopen("teste.txt", "r");
 	if (arq == NULL){  // Se houve erro na abertura
 	    printf("Problemas na abertura do arquivo\n");
