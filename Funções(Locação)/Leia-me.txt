@@ -1,0 +1,6 @@
+# Funções(Locação)
+
+Coloquem nessa pasta as funções relacionadas
+ao menu "locação", exemplo: realizar locação
+
+Usem nomes expecificos pra não ter confusão, exemplo: funcao_realizar_locacao.cpp
