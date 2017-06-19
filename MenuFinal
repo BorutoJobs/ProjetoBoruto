@@ -1,0 +1,134 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <time.h>
+#include <windows.h>
+#include <string.h>
+#include <math.h>
+#include <locale.h>
+
+
+int main() 
+{
+	int opcao=0,sair=0;
+    char nome [50];
+setlocale(LC_ALL,"Portuguese");
+
+while(sair!=256)
+{    
+system("COLOR 0B");
+	printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");
+	printf("\t\t\t\t<<<<BEM VINDO A LOCACAO DE JOGOS BORUTO>>>> ");
+	printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	printf("\n\n\n\t\t\t\t\t\t1- LISTAR JOGOS DISPONIVEIS \n\t\t\t\t\t\t2- CLIENTES \n\t\t\t\t\t\t3- LOCAÇÃO \n\t\t\t\t\t\t4- SAIR: ");
+	scanf("%i",&opcao);
+	system("CLS");
+
+	switch(opcao)
+	{
+	
+		case 1:
+	
+		printf("\n\n <<<<LISTA DE JOGOS>>>> \n\n");
+      system("PAUSE");
+      system("CLS");
+//SERÁ IMPRESSO LISTA DE JOGOS NESTA OPÇÂO
+		break;
+
+		case 2:
+		printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");	
+	printf("\t\t\t\t\t\t<<<<CLIENTES>>>> ");	
+		printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	printf("\n\n\n\t\t\t\t\t\t1- NOVO CLIENTE \n\t\t\t\t\t\t2- LISTAR CLIENTES \n\t\t\t\t\t\t3- BUSCAR CLIENTES \n\t\t\t\t\t\t4- SAIR: ");
+		scanf("%i",&opcao);
+		    	system("CLS");
+
+			switch(opcao)
+	    	{
+	    		case 1:
+		printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");	
+	        printf("\t\t\t\t\t<<<<NOVO CLIENTE>>>> ");	
+		printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	          fflush(stdin);
+			  getchar();
+	    		system("PAUSE");
+	    		system("CLS");
+	    		
+				
+				/* Função para cadastrar cliente aqui */
+			    break;
+			    
+			    case 2:
+	    printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");	
+	        printf("\t\t\t\t\t\t<<<<LISTAR CLIENTES>>>> ");	
+		printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	          fflush(stdin);
+			  getchar();
+	                  system("PAUSE");
+	                  system("CLS");
+				/* Função para excluir cliente aqui */
+			    break;
+			    
+			    case 3:
+	    printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");	
+	        printf("\t\t\t\t\t<<<<BUSCAR CLIENTES>>>> ");	
+		printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	          fflush(stdin);
+			  getchar();
+	              system("PAUSE");
+	              system("CLS");
+				/* Função para buscar cliente aqui */
+			    break;
+			    
+			    case 4:
+	    printf("Saindo.... ");	
+	          fflush(stdin);
+			  getchar();
+	               system("PAUSE");
+	               system("CLS");
+				break;
+	        }
+		break;
+		
+		case 3:
+	printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");	
+	        printf("\t\t\t\t\t<<<<LOCAÇÂO>>>> ");	
+		printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	    	printf("\n\n\n\t\t\t\t\t\t1- NOVA LOCAÇÃO\n\t\t\t\t\t\t2-SAIR ");
+		scanf("%i",&opcao);
+	system("CLS");
+
+		    switch(opcao)
+	    	{
+	    		case 1:
+	    printf("><><><><><><><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><");	
+	        printf("\t\t\t\t\t<<<<NOVA LOCAÇÃO>>>> ");	
+		printf("\n<><><><><><><><><><><><><><><><><><<><><><><><><><><><><><<><>><><><><><><><><><><><><><><><><>><><><><><><><><><><><>><");
+	          fflush(stdin);
+			  getchar();
+	              system("PAUSE");
+	              system("CLS");
+	
+	 
+	    		/* Função para realizar a locaçao aqui */
+			    
+			 
+		break;
+	            case 2:
+	        printf("Saindo.... ");	
+	          fflush(stdin);
+			  getchar();
+	              system("PAUSE");
+	              system("CLS");
+				
+					break;
+		case 4:
+		sair = 256;
+	printf("\n\nSaindo....!");
+		break;
+	  
+	}
+}
+	system("pause");
+}
+}
