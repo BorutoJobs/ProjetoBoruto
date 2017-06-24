@@ -1,13 +1,13 @@
-#Vers„o 2.0
+#Vers√£o 2.1
 
 #Relatem os bugs que acharem aqui.
 
 Nesse formato de preferencia:
 
-1- DescriÁ„o do Bug / LocalizaÁ„o no codigo / Possivel soluÁ„o
+1- Descri√ß√£o do Bug / Localiza√ß√£o no codigo / Possivel solu√ß√£o
 
-2- DescriÁ„o do Bug / LocalizaÁ„o no codigo / Possivel soluÁ„o
+2- Descri√ß√£o do Bug / Localiza√ß√£o no codigo / Possivel solu√ß√£o
 
-3- DescriÁ„o do Bug / LocalizaÁ„o no codigo / Possivel soluÁ„o
+3- Descri√ß√£o do Bug / Localiza√ß√£o no codigo / Possivel solu√ß√£o
 
-4- DescriÁ„o do Bug / LocalizaÁ„o no codigo / Possivel soluÁ„o
+4- Descri√ß√£o do Bug / Localiza√ß√£o no codigo / Possivel solu√ß√£o
