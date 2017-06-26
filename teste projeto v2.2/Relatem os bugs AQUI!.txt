@@ -1,0 +1,13 @@
+#Versão 2.2
+
+#Relatem os bugs que acharem aqui.
+
+Nesse formato de preferencia:
+
+1- Descrição do Bug / Localização no codigo / Possivel solução
+
+2- Descrição do Bug / Localização no codigo / Possivel solução
+
+3- Descrição do Bug / Localização no codigo / Possivel solução
+
+4- Descrição do Bug / Localização no codigo / Possivel solução
